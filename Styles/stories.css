@@ -1,0 +1,19 @@
+.story h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.story h2 {
+    font-size: 18px; 
+    color: #666; 
+}
+.story p {
+    font-size: 16px; 
+    color: #999; 
+}
+.story {
+    margin: 0 170px; 
+}
+.centered-title {
+    text-align: center;
+}

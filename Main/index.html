@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Healing Hands</title>
+        <link rel="stylesheet" type="text/css" href="../Styles/style.css">
+        <link rel="icon" type="image/png" href="../Images/biosphere_8167918.png">
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <img src="../Images/biosphere_8167918.png" alt="Healing Hands Logo">
+            </div>
+            <div class="title">Healing Hands</div>
+            <div class="menu">
+                <div class="menu-right">
+                    <button class="menu-button">☰</button>
+                    <div class="menu-dropdown">
+                        <a href="../Main/index.html" class="menu-button">Home</a>
+                        <a href="../Main/news-and-events.html" class="menu-button">News and Events</a>
+                        <a href="../Main/stories.html" class="menu-button">Stories</a>
+                        <a href="../Main/gallery.html" class="menu-button">Gallery</a>
+                        <a href="../Main/volunteer-signup.html" class="menu-button">Volunteer Sign-up</a>
+                        <a href="../Main/social-media.html" class="menu-button">Social Media</a>
+                        <a href="../Main/community.html" class="menu-button">Community</a>
+                    </div>
+                    <a href="donate.html" class="donate-button">Donate</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="image-container">
+            <img src="../Images/UNI448902.jpg" alt="Children in Gaza" />
+            <div class="text-overlay">
+                <h2>Children in Gaza need lifesaving support</h2>
+                <p>Supporting children in Gaza with lifesaving assistance.</p>
+                <a href="children-in-gaza.html" class="read-more-button">Read more➤</a>
+                <a href="donate.html" class="donate-button">Donate</a>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="box" onclick="showDetails('b_1')">Medical Team in Action</div>
+            <div class="box" onclick="showDetails('b_2')">Healthcare Clinics</div>
+            <div class="box" onclick="showDetails('b_3')">Clean Water Access</div>
+            <div class="box" onclick="showDetails('b_4')">Medical Training and Capacity Building</div>
+            <div class="box" onclick="showDetails('b_5')">Nutrition Support Programs</div>
+            <div class="box" onclick="showDetails('b_6')">Psychological Support and Trauma Counseling</div>
+            <div class="box" onclick="showDetails('b_7')">Emergency Shelter and Relief Supplies</div>
+            <div class="box" onclick="showDetails('b_8')">Maternal and Child Health Programs</div>
+            <div class="box" onclick="showDetails('b_9')">Community Health Education</div>
+            <div class="box" onclick="showDetails('b_10')">Mobile Medical Units</div>
+            <div class="box" onclick="showDetails('b_11')">Rehabilitation Services</div>
+            <div class="box" onclick="showDetails('b_12')">Educational Support</div>
+        </div>
+
+        <div class="overlay" id="b_1_overlay">
+            <img src="../Images/MSF256367.jpg" alt="Medical Team in Action">
+            <h2>Medical Team in Action</h2>
+            <p>Rapid response medical teams that provide immediate aid in disaster-stricken areas, conflict zones, and regions affected by epidemics. This service includes emergency medical care, supplies, and personnel.</p>
+            <button onclick="closeDetails('b_1')">Close</button>
+        </div>
+        
+        <div class="overlay" id="b_2_overlay">
+            <img src="../Images/UN0581558.jpg" alt="Healthcare Clinics">
+            <h2>Healthcare Clinics</h2>
+            <p>Establishment of healthcare clinics in underserved and remote communities, providing general medical services, vaccinations, maternal care, and health education.</p>
+            <button onclick="closeDetails('b_2')">Close</button>
+        </div>
+        
+        <div class="overlay" id="b_3_overlay">
+            <img src="../Images/UNI398386.jpg" alt="Clean Water Access">
+            <h2>Clean Water Access</h2>
+            <p>Water purification projects and the distribution of clean water sources to ensure access to safe drinking water in areas with water scarcity or contamination.</p>
+            <button onclick="closeDetails('b_3')">Close</button>
+        </div>
+        
+        <div class="overlay" id="b_4_overlay">
+            <img src="../Images/Dangriga-2.jpg" alt="Medical Training and Capacity Building">
+            <h2>Medical Training and Capacity Building</h2>
+            <p>Training local healthcare workers, including doctors, nurses, and first responders, to enhance their skills and increase the community's capacity for medical care.</p>
+            <button onclick="closeDetails('b_4')">Close</button>
+        </div>
+        <div class="overlay" id="b_5_overlay">
+            <img src="../Images/PSE-2019-Noorani-0350.jpg" alt="Nutrition Support Programs">
+            <h2>Nutrition Support Programs</h2>
+            <p>Initiatives that focus on combating malnutrition by distributing food, providing nutritional education, and supporting sustainable farming practices.</p>
+            <button onclick="closeDetails('b_5')">Close</button>
+        </div>
+        
+        <div class="overlay" id="b_6_overlay">
+            <img src="../Images/IMG_9829.jpg" alt="Psychological Support and Trauma Counseling">
+            <h2>Psychological Support and Trauma Counseling</h2>
+            <p>Services aimed at addressing the mental health needs of individuals affected by trauma, conflict, and disaster. This includes counseling and support groups.</p>
+            <button onclick="closeDetails('b_6')">Close</button>
+        </div>
+        
+        <div class="overlay" id="b_7_overlay">
+            <img src="../Images/UNI195733.jpg" alt="Emergency Shelter and Relief Supplies">
+            <h2>Emergency Shelter and Relief Supplies</h2>
+            <p>Provision of emergency shelter, blankets, and essential supplies to displaced individuals and families during crises, offering protection and comfort.</p>
+            <button onclick="closeDetails('b_7')">Close</button>
+        </div>
+        
+        <div class="overlay" id="b_8_overlay">
+            <img src="../Images/Hero-Putting the Best.jpg" alt="Maternal and Child Health Programs">
+            <h2>Maternal and Child Health Programs</h2>
+            <p>Specialized care for mothers and children, including prenatal and postnatal care, vaccinations, and support for healthy pregnancies and early childhood development.</p>
+            <button onclick="closeDetails('b_8')">Close</button>
+        </div>
+        
+        <div class="overlay" id="b_9_overlay">
+            <img src="../Images/UNICEF_AAH_2022-0317_Adam Lacson_WASH Training CHVs_Siargao (14).jpg" alt="Community Health Education">
+            <h2>Community Health Education</h2>
+            <p>Educational initiatives targeting communities to raise awareness about health, hygiene, disease prevention, and healthy living practices.</p>
+            <button onclick="closeDetails('b_9')">Close</button>
+        </div>
+        
+        <div class="overlay" id="b_10_overlay">
+            <img src="../Images/UNICEF-YEM-20-Feb-Mobile Clinic Coverage in Mareb-2A4A0655.jpg" alt="Mobile Medical Units">
+            <h2>Mobile Medical Units</h2>
+            <p>Mobile healthcare clinics that reach remote areas and vulnerable populations, offering medical check-ups, vaccinations, and essential treatments.</p>
+            <button onclick="closeDetails('b_10')">Close</button>
+        </div>
+        
+        <div class="overlay" id="b_11_overlay">
+            <img src="../Images/_RT_9729.jpg" alt="Rehabilitation Services">
+            <h2>Rehabilitation Services</h2>
+            <p>Rehabilitation centers and services for individuals who have experienced physical injuries or disabilities due to conflicts or disasters.</p>
+            <button onclick="closeDetails('b_11')">Close</button>
+        </div>
+        
+        <div class="overlay" id="b_12_overlay">
+            <img src="../Images/UN0526284.jpg" alt="Educational Support">
+            <h2>Educational Support</h2>
+            <p>Programs designed to ensure access to education for children and youth in crisis-affected regions. This includes the establishment of schools, provision of learning materials, and teacher training.</p>
+            <button onclick="closeDetails('b_12')">Close</button>
+        </div>                
+        
+        <div class="c-section">
+            <div class="c-image">
+                <img src="../Images/MSF245141.jpg" alt="Medical Care" width="666" height="520">
+            </div>
+            <div class="c-text">
+                <h2>Medical care where it’s needed most</h2>
+                <p>When emergencies occur, we are often among the first to arrive—and the last to leave. Get an in-depth look at our work, including the how and why of where we respond and the challenges we face.</p>
+            </div>
+        </div>
+        
+        <div class="d-section">
+            <h2>How you can help</h2>
+            <div class="d-box">
+                <h3>Fundraise with us</h3>
+                <p>There are many ways for you to support Healing Hands with fundraising.</p>
+                <a href="donate.html" class="d-button">Be a fundraiser</a>
+            </div>
+            <div class="d-box">
+                <h3>Volunteer with us</h3>
+                <p>Want to save lives and change minds? Join our Healing Hands family.</p>
+                <a href="volunteer-signup.html" class="d-button">Become a volunteer</a>
+            </div>
+            <div class="d-box">
+                <h3>Learn with us</h3>
+                <p>Discover our wide range of humanitarian learning and training opportunities.</p>
+                <a href="community.html" class="d-button">View our learning</a>
+            </div>
+        </div>
+        
+        <div class="e-section">
+            <div class="e-text">
+                <h2>Global Assistance Project</h2>
+            </div>
+            <div class="e-image">
+                <img src="../Images/MapChart_Map.png" alt="Global Assistance Project" width="800" height="536">
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="../Images/biosphere_8167918.png" alt="Healing Hands Logo">
+            </div>
+            <div class="copyright">
+                &copy; 2023 Healing Hands.
+            </div>
+            <div class="footer-menu">
+                <a href="../Main/news-and-events.html">News and Events</a>
+                <a href="../Main/stories.html">Stories</a>
+                <a href="../Main/gallery.html">Gallery</a>
+                <a href="../Main/volunteer-signup.html">Volunteer Sign-up</a>
+                <a href="../Main/social-media.html">Social Media</a>
+                <a href="../Main/community.html">Community</a>
+            </div>
+        </div>
+        <script>
+            function showDetails(id) {
+                document.getElementById(id + "_overlay").style.display = "block";
+            }
+        
+            function closeDetails(id) {
+                document.getElementById(id + "_overlay").style.display = "none";
+            }
+        </script>
+        
+        
+        
+    </body>
+</html>

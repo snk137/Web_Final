@@ -1,0 +1,42 @@
+.success-stories {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.section-a {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.story-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.story-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.story-card h2 {
+    color: #333;
+}
+
+.story-card p {
+    color: #666;
+}
+
+.story-card a {
+    color: #4c9baf;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.story-card a:hover {
+    color: rgb(4, 250, 250);
+}
